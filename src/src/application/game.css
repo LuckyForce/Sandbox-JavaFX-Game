@@ -1,0 +1,111 @@
+#backgroundscreen{
+    -fx-background-position: center center;
+    -fx-background-color: grey;
+}
+
+#hotbar{
+    -fx-border-color: black;
+    -fx-border-width: 3.0;
+    -fx-border-radius: 10.0;
+    -fx-background-color: transparent;
+}
+
+#hotbarItem{
+	-fx-border-color: black;
+	-fx-border-width: 1.0;
+}
+
+.BorderPane{
+	-fx-border-color: black;
+    -fx-border-width: 3.0;
+    -fx-border-radius: 10.0;
+    -fx-background-color: transparent;
+}
+
+#activeItem{
+	-fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+#activeItemLabel{
+    -fx-font-family:"Gabriola", Helvetica, Arial, sans-serif;
+    -fx-font-size: 3.0em;
+    -fx-text-fill: black;
+}
+
+#selectedItemVBox{
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+#menuWindow{
+    -fx-border-color: black;
+    -fx-border-width: 3.0;
+    -fx-border-radius: 10.0;
+    -fx-background-radius: 12.0;
+   	-fx-background-color: brown;
+}
+
+#blacktext{
+	-fx-text-fill: black;
+}
+
+#score{
+    -fx-background-color: transparent;
+    -fx-font-family:"French Script MT", Helvetica, Arial, sans-serif;
+    -fx-font-size: 4.0em;
+    -fx-text-fill: black;
+}
+
+#menuButton{
+	-fx-border-color: black;
+    -fx-border-width: 3.0;
+    -fx-border-radius: 10.0;
+    -fx-background-color: transparent;
+    -fx-font-family:"French Script MT", Helvetica, Arial, sans-serif;
+    -fx-font-size: 2.0em;
+    -fx-text-fill: black;
+}
+
+#menuWindowButton, #settings{
+	-fx-border-color: black;
+    -fx-border-width: 3.0;
+    -fx-border-radius: 10.0;
+    -fx-background-color: transparent;
+    -fx-font-family:"French Script MT", Helvetica, Arial, sans-serif;
+    -fx-font-size: 4.0em;
+    -fx-text-fill: black;
+}
+#menuWindowButton:focused{
+    -fx-border-color: black;
+    -fx-border-width: 5.0;
+    -fx-border-style: solid;
+    -fx-border-radius: 10.0;
+    -fx-border-insets: 1.0 1.0 1.0 1.0, 0.0;
+}
+
+#menuLabel{
+    -fx-background-color: transparent;
+    -fx-font-family:"French Script MT", Helvetica, Arial, sans-serif;
+    -fx-font-size: 8.0em;
+    -fx-text-fill: black;
+}
+
+#escButton{
+	-fx-background-color: transparent;
+}
+
+.slider .track {
+	-fx-background-color: black;
+}
+
+.slider .thumb {
+	-fx-background-color: black;
+}
+
+.slider:focused .thumb{
+	-fx-scale-x: 1.2;
+	-fx-scale-y: 1.2;
+}
+
+.slider:focused .track{
+	-fx-scale-y: 1.2;
+}

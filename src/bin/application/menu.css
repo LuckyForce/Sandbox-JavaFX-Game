@@ -1,0 +1,138 @@
+#titellabel{
+	-fx-text-fill: black;
+}
+
+#menupicture{
+    -fx-background-image: url("../../pictures/menu.png"); 
+    -fx-background-position: center center;
+}
+
+#menubutton, #settings, #createWorld, #createWorld1, #createWorld2{
+	-fx-border-color: black;
+    -fx-border-width: 3.0;
+    -fx-border-radius: 10.0;
+    -fx-background-color: transparent;
+    -fx-font-family:"French Script MT", Helvetica, Arial, sans-serif;
+    -fx-font-size: 4.0em;
+    -fx-text-fill: black;
+}
+
+#gameover{
+    -fx-font-family:"French Script MT", Helvetica, Arial, sans-serif;
+    -fx-font-size: 10.0em;
+    -fx-text-fill: black;
+}
+#createWorld1{
+	-fx-font-size: 3.0em;
+	-fx-accent: rgba(0.0, 0.0, 0.0, 0.2);
+}
+
+#createWorld2{
+	-fx-font-size: 0.7em;
+}
+
+#menubutton:focused, #playmenubutton:focused, #playmenubutton1:focused, #createWorld1:focused, #createWorld2:focused{
+    -fx-border-color: black;
+    -fx-border-width: 5.0;
+    -fx-border-style: solid;
+    -fx-border-radius: 10.0;
+    -fx-border-insets: 1.0 1.0 1.0 1.0, 0.0;
+}
+
+#credits{
+	-fx-text-fill: black;
+}
+
+#esc{
+	-fx-background-color: transparent;
+}
+
+#playmenulabel1{
+	-fx-font-size: 1.2em;
+    -fx-text-fill: black;
+}
+
+#playmenulabel2{
+	-fx-font-size: 0.6em;
+    -fx-text-fill: black;
+}
+
+#playmenubutton{
+    -fx-border-color: black;
+    -fx-border-width: 3.0;
+    -fx-border-radius: 10.0;
+    -fx-background-color: transparent;
+    -fx-font-family:"French Script MT", Helvetica, Arial, sans-serif;
+    -fx-font-size: 0.9em;
+    -fx-text-fill: black;
+}
+
+#playmenubutton1{
+    -fx-border-color: black;
+    -fx-border-width: 3.0;
+    -fx-border-radius: 10.0;
+    -fx-background-color: transparent;
+    -fx-font-family:"French Script MT", Helvetica, Arial, sans-serif;
+    -fx-font-size: 0.5em;
+    -fx-text-fill: black;
+}
+
+.slider .track {
+	-fx-background-color: black;
+}
+
+.slider .thumb {
+	-fx-background-color: black;
+}
+
+.slider:focused .thumb{
+	-fx-scale-x: 1.2;
+	-fx-scale-y: 1.2;
+}
+
+.slider:focused .track{
+	-fx-scale-y: 1.2;
+}
+
+.table-view{
+   	-fx-background-color: transparent;
+   	-fx-border-color: black;
+   	-fx-border-width: 3.0;
+   	-fx-border-radius: 10.0;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+	-fx-background-color: transparent;
+	-fx-border-color: black;
+   	-fx-border-width: 1.0;
+   	-fx-border-color: black;
+   	-fx-border-width: 1.0;
+    -fx-font-size: 1.5em;
+    -fx-text-fill: black;
+}
+
+.table-row-cell{
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: black;
+    -fx-background-insets: 0.0, 0.0 0.0 1.0 0.0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: rgba(0.0, 0.0, 0.0, 0.2);
+    -fx-background-insets: 0.0;
+    -fx-background-radius: 1.0;
+}

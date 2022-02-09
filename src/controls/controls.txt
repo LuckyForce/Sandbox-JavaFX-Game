@@ -1,0 +1,1 @@
+W/↑#Moving Forward,S/↓#Moving Backwards,A/←#Moving left,D/→#Moving right,Shift#Moving faster,E#Opening Inventory,ESC#Opening Menu
