@@ -27,6 +27,7 @@ import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Callback;
+import javafx.util.Duration;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -109,23 +110,27 @@ public class Main extends Application {
 		mediaPlayer2 = new MediaPlayer(new Media(Paths.get("music/music2.mp3").toUri().toString()));
 		mediaPlayer3 = new MediaPlayer(new Media(Paths.get("music/music3.mp3").toUri().toString()));
 		mediaView.setMediaPlayer(mediaPlayer1);
+		mediaView.getMediaPlayer().seek(Duration.ZERO);
 		mediaView.getMediaPlayer().play();
 		mediaView.getMediaPlayer().setVolume(volumemusic);
 
 		mediaPlayer1.setOnEndOfMedia(() -> {
 			mediaView.setMediaPlayer(mediaPlayer2);
+			mediaView.getMediaPlayer().seek(Duration.ZERO);
 			mediaView.getMediaPlayer().play();
 			mediaView.getMediaPlayer().setVolume(volumemusic);
 		});
 
 		mediaPlayer2.setOnEndOfMedia(() -> {
 			mediaView.setMediaPlayer(mediaPlayer3);
+			mediaView.getMediaPlayer().seek(Duration.ZERO);
 			mediaView.getMediaPlayer().play();
 			mediaView.getMediaPlayer().setVolume(volumemusic);
 		});
 
 		mediaPlayer3.setOnEndOfMedia(() -> {
 			mediaView.setMediaPlayer(mediaPlayer1);
+			mediaView.getMediaPlayer().seek(Duration.ZERO);
 			mediaView.getMediaPlayer().play();
 			mediaView.getMediaPlayer().setVolume(volumemusic);
 		});
