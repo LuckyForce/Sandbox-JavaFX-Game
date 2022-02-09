@@ -1,1 +1,1 @@
-volumemusic:0.065,volumesound:0.385
+volumemusic:0.065,volumesound:0.315
