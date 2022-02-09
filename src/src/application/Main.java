@@ -1503,7 +1503,8 @@ public class Main extends Application {
 		VBox inventarVBoxes[][] = new VBox[4][10];
 		for (int i = 0; i < inventar.length; i++) {
 			for (int j = 0; j < inventar[i].length; j++) {
-				inventarVBoxes[i][j] = new VBox(new ImageView(items[inventar[i][j]]));
+				ImageView item = new ImageView(items[inventar[i][j]]);
+				inventarVBoxes[i][j] = new VBox(item);
 				inventarVBoxes[i][j].setMinWidth(63);
 				inventarVBoxes[i][j].setMinHeight(52);
 				inventarVBoxes[i][j].setId("hotbarItem");
