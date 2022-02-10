@@ -13,3 +13,15 @@ Sandbox is a JavaFX Game that I developed in second Semester of second grade HTL
 
 ### Credits
 <img src="https://github.com/LuckyForce/Sandbox-JavaFX-Game/blob/main/screenshots/credits.png" alt="Credits"></img>
+
+### World Selection
+<img src="https://github.com/LuckyForce/Sandbox-JavaFX-Game/blob/main/screenshots/world-selection.png" alt="World Selection"></img>
+
+### Game Configuration
+<img src="https://github.com/LuckyForce/Sandbox-JavaFX-Game/blob/main/screenshots/game-configuration.png" alt="Game Configuration"></img>
+
+### Game Menu
+<img src="https://github.com/LuckyForce/Sandbox-JavaFX-Game/blob/main/screenshots/game-menu.png" alt="Game Menu"></img>
+
+### Game
+<img src="https://github.com/LuckyForce/Sandbox-JavaFX-Game/blob/main/screenshots/game.png" alt="Game"></img>
